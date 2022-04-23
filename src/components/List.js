@@ -48,7 +48,7 @@ const List = () => {
                     <td>{element.marca}</td>
                     <td>{element.año}</td>
                     <td>{element.placa}</td>
-                    <td><img src={element.imagen} width="40" height="50" alt=""/></td>
+                    <td><img src={element.imagen} width="80" height="50" alt=""/></td>
                     <td><button onClick={()=>deleteData(element.id)}>Eliminar</button></td>
                   </tr>
                 ))
